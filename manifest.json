@@ -10,8 +10,7 @@
     "commands": {
         "triggerYouTubeIt": {
           "suggested_key": {
-            "default": "Alt+Y",
-            "mac": "Option+Y"
+            "default": "Alt+Y"
           },
           "description": "Open YouTube with the search term"
         }
