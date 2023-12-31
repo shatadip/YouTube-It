@@ -1,5 +1,3 @@
-// background.js
-
 // Event listener for extension icon click
 chrome.action.onClicked.addListener(function (tab) {
     try {
@@ -8,7 +6,6 @@ chrome.action.onClicked.addListener(function (tab) {
       if (!searchTerm) {
         // If no recognized parameter is found, use the entire title as the search query
         searchTerm = extractSearchQueryFromTitle(tab.title);
-        // alertUser('Search Term: ' + searchTerm);
       }
   
       hitYouTube(searchTerm);
@@ -16,20 +13,6 @@ chrome.action.onClicked.addListener(function (tab) {
       console.error("Error in event handler:", error.message);
     }
   });
-  
-  // Function to display notifications
-  const alertUser = (msg) => {
-    chrome.notifications.create(
-      "Message",
-      {
-        type: "basic",
-        iconUrl: "icon-48.png",
-        title: 'YouTube It',
-        message: msg
-      }
-    );
-    chrome.notifications.clear("Message");
-  }
   
   // Function to open YouTube with the search term
   const hitYouTube = (searchTerm) => {
