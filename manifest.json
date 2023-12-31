@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube It",
+    "version": "1.0",
+    "description": "Instantly open YouTube with your current search term or tab title. Includes Alt+Y shortcut for speedy access.",
+    "permissions": ["activeTab"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "commands": {
+        "triggerYouTubeIt": {
+          "suggested_key": {
+            "default": "Alt+Y",
+            "mac": "Option+Y"
+          },
+          "description": "Open YouTube with the search term"
+        }
+      },
+    "action": {
+      "default_icon": {
+        "48":"icon-48.png",
+        "128":"icon-128.png"
+    },
+    "icons": {
+      "48": "icon-48.png",
+      "128":"icon-128.png"
+    }
+  }
+}
