@@ -3,7 +3,7 @@
     "name": "Tube It",
     "version": "1.0",
     "description": "Instantly open YouTube with your current search term or tab title. Includes Alt+Y shortcut for speedy access.",
-    "permissions": ["activeTab"],
+    "permissions": ["activeTab","contextMenus"],
     "background": {
       "service_worker": "background.js"
     },
@@ -17,12 +17,14 @@
       },
     "action": {
       "default_icon": {
-        "48":"icon-48.png",
-        "128":"icon-128.png"
-    },
-    "icons": {
-      "48": "icon-48.png",
-      "128":"icon-128.png"
+        "32": "icons/icon-32.png",
+        "48":"icons/icon-48.png",
+        "128":"icons/icon-128.png"
     }
+  },
+  "icons": {
+    "32": "icons/icon-32.png",
+    "48":"icons/icon-48.png",
+    "128":"icons/icon-128.png"
   }
 }

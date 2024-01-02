@@ -76,3 +76,29 @@ chrome.commands.onCommand.addListener(function (command) {
     }
   });
   
+  chrome.contextMenus.create({
+    title: "📺 YouTube It \"%s\"",
+    contexts: ["selection"],
+    id: "tubeItContextMenu" // Unique identifier for the menu item
+  });
+  
+  // Event listener for the context menu item click
+  chrome.contextMenus.onClicked.addListener(function (info, tab) {
+    if (info.menuItemId === "tubeItContextMenu") {
+      // Handle the selected text, e.g., open YouTube with the selected text
+      var selectedText = info.selectionText;
+      if (selectedText) {
+        openYouTubeWithSelectedText(selectedText);
+      }
+    }
+  });
+  
+  // Function to open YouTube with a search term
+  function openYouTubeWithSelectedText(searchTerm) {
+    var youtubeUrl =
+      "https://www.youtube.com/results?search_query=" +
+      encodeURIComponent(searchTerm);
+    chrome.tabs.create({ url: youtubeUrl });
+  }
+  
+  
