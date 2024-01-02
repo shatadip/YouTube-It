@@ -1,6 +1,6 @@
-# YouTube It Extension
+# Tube It Chrome Extension
 
-YouTube It is a Chrome extension designed to enhance your browsing experience by seamlessly opening YouTube with the current search term or the title of the active browser tab. With features like automatic search term extraction, a dedicated shortcut key, and intelligent search capabilities, YouTube It provides a convenient way to access relevant YouTube content.
+Tube It (a.k.a. YouTube It) is a Chrome extension designed to enhance your browsing experience by seamlessly opening YouTube with the current search term or the title of the active browser tab. With features like automatic search term extraction, a dedicated shortcut key, and intelligent search capabilities, Tube It provides a convenient way to access relevant YouTube content.
 
 ## Features
 
@@ -19,7 +19,7 @@ YouTube It is a Chrome extension designed to enhance your browsing experience by
 ## Installation
 
 1. **Chrome Web Store (Recommended):**
-   - Visit the [YouTube It Extension on Chrome Web Store](https://chromewebstore.google.com/search/YouTube%20It).
+   - Visit the [Tube It Extension on Chrome Web Store](https://chromewebstore.google.com/search/YouTube%20It).
    - Click on the "Add to Chrome" button to install the extension.
 
 2. **Manual Installation:**
@@ -43,7 +43,7 @@ YouTube It is a Chrome extension designed to enhance your browsing experience by
 
 ## Intelligent Search
 
-YouTube It intelligently searches for the search term or title of the current tab, providing accurate and relevant results. The extension's smart algorithms ensure a seamless and effective search experience.
+Tube It intelligently searches for the search term or title of the current tab, providing accurate and relevant results. The extension's smart algorithms ensure a seamless and effective search experience.
 
 ## User Feedback
 

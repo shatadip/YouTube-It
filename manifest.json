@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "YouTube It",
+    "name": "Tube It",
     "version": "1.0",
     "description": "Instantly open YouTube with your current search term or tab title. Includes Alt+Y shortcut for speedy access.",
     "permissions": ["activeTab"],
