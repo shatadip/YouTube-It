@@ -19,7 +19,7 @@ Tube It (a.k.a. YouTube It) is a Chrome extension designed to enhance your brows
 ## Installation
 
 1. **Chrome Web Store (Recommended):**
-   - Visit the [Tube It Extension on Chrome Web Store](https://chromewebstore.google.com/search/YouTube%20It).
+   - Visit the [Tube It Extension on Chrome Web Store](https://chromewebstore.google.com/detail/tube-it/nappkhapnblmmjhhainmjheeilgkmgjg).
    - Click on the "Add to Chrome" button to install the extension.
 
 2. **Manual Installation:**
@@ -36,6 +36,7 @@ Tube It (a.k.a. YouTube It) is a Chrome extension designed to enhance your brows
 ## Usage
 
 - Click the extension icon or use the Alt+Y shortcut to open YouTube with the current search term or tab title.
+- Select text on any webpage, right-click on it, and you will get the option to YouTube It (your selected text).
 
 ## Shortcut Key
 
@@ -47,7 +48,7 @@ Tube It intelligently searches for the search term or title of the current tab, 
 
 ## User Feedback
 
-We value your feedback! Please consider leaving a review on the [Chrome Web Store](<#>) to share your experience and suggestions.
+We value your feedback! Please consider leaving a review on the [Chrome Web Store](https://chromewebstore.google.com/detail/tube-it/nappkhapnblmmjhhainmjheeilgkmgjg) to share your experience and suggestions.
 
 ## Author
 
